@@ -7,7 +7,7 @@ use Psr\Container\ContainerInterface;
 use Whoops\Handler\HandlerInterface;
 use Whoops\Handler\JsonResponseHandler;
 use Whoops\Handler\PlainTextHandler;
-use Whoops\Handler\PrettyPageHandler;
+use Middlewares\Handler\PrettyPageHandler;
 use Whoops\Handler\XmlResponseHandler;
 
 /**
